@@ -30,8 +30,7 @@ npm run start
 The app is hosted using Heroku here at this link: [Employee Directory](https://ogmedina.github.io/Employee-Directory/)
 
 ### Screenshots 
-![EmployeeDirectory1]()
-![EmployeeDirectory2]()
+![EmployeeDirectory1](https://github.com/ogmedina/Employee-Directory/blob/main/screenshots/employeedirectory1.jpg)
 
 ### License
 This project is licensed under the MIT License. 

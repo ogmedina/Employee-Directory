@@ -27,7 +27,7 @@ The program can then be run using the following command line in the bash termina
 npm run start
 ```
 ### Hosted
-The app is hosted using Heroku here at this link: [Employee Directory](https://ogmedina.github.io/Employee-Directory/)
+The app is hosted using GitHub Pages here at this link: [Employee Directory](https://ogmedina.github.io/Employee-Directory/)
 
 ### Screenshots 
 ![EmployeeDirectory1](https://github.com/ogmedina/Employee-Directory/blob/main/screenshots/employeedirectory1.jpg)

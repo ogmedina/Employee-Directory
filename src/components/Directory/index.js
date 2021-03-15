@@ -8,7 +8,7 @@ function Directory(props) {
                 <thead>
                     <tr>
                         <th>Employee</th>
-                        <th>Name</th>
+                        <th><button onClick={props.sortAlphaUsers}>Name (Sort by First Name)</button><button onClick={props.sortReversedAlphaUsers}>Name (Sort by Last Name)</button></th>
                         <th>Address</th>
                         <th>Email</th>
                         <th>Cell Phone</th>
@@ -21,11 +21,10 @@ function Directory(props) {
                             <tr key={login.uuid}>
                                 <td><img src={picture.large} alt="employee"/></td>
                                 <td>{name.first} {name.last}</td>
-
-
-
-
-
+                                <td>{location.city}, {location.state} {location.postcode}</td>
+                                <td>{email}</td>
+                                <td>{cell}</td>
+                                <td>{phone}</td>
                             </tr>
                         );                       
                     })}

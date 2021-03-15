@@ -1,12 +1,10 @@
 import React from "react";
-// import { BrowserRouter as Router, Route} from "react-router-dom";
 import Hero from "./components/Hero";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import './App.css';
-import SearchResultContainer from "./components/SearchResultContainer";
-// import EmployeeCard from "./components/Employee/index"
+import SearchResultContainer from "../src/components/SearchResultContainer/SearchResultContainer";
 
 function App() {
   return (
@@ -15,8 +13,7 @@ function App() {
         <h1>Employee Directory</h1>        
       </Hero>
       <Container>
-        <Row><hr ></hr>
-        </Row>      
+   
         <Row>
         <Col sm><SearchResultContainer /></Col>
        

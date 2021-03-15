@@ -1,14 +1,21 @@
 import React from "react";
-import Table from "react-bootstrap/Table"
+import Table from "react-bootstrap/Table";
+import "./style.css";
+import DropdownButton from "react-bootstrap/DropdownButton";
+import Dropdown from "react-bootstrap/Dropdown";
 
 function Directory(props) {
     return (
         <div>
-            <Table striped bordered hover variant="dark">
+            {/* Table for directory */}
+            <Table striped bordered hover>
                 <thead>
                     <tr>
                         <th>Employee</th>
-                        <th><button onClick={props.sortAlphaUsers}>Name (Sort by First Name)</button><button onClick={props.sortReversedAlphaUsers}>Name (Sort by Last Name)</button></th>
+                        <th><DropdownButton variant="success" id="dropdown-basic-button" title="Name">
+                                         <Dropdown.Item onClick={props.sortAlphaUsers}>First Name</Dropdown.Item>
+                                         <Dropdown.Item onClick={props.sortReversedAlphaUsers}>Last Name</Dropdown.Item>                                         
+                                        </DropdownButton></th>
                         <th>Address</th>
                         <th>Email</th>
                         <th>Cell Phone</th>

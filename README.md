@@ -1,7 +1,4 @@
 # Employee-Directory
-An employee directory using React and the random users from the Random User API.
-
-# Employee-Directory
 ![GitHub](https://img.shields.io/github/license/ogmedina/employee-directory)
 
 An employee directory using React.js that is populated using random users from the [Random User API](https://randomuser.me/). As a user, you are able to view a sample employee directory, sort by first/last name, and filter through the results using a first name search bar.

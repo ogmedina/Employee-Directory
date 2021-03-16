@@ -13,9 +13,9 @@ function Directory(props) {
                     <tr>
                         <th>Employee</th>
                         <th><DropdownButton variant="success" id="dropdown-basic-button" title="Name">
-                                         <Dropdown.Item onClick={props.sortAlphaUsers}>First Name</Dropdown.Item>
-                                         <Dropdown.Item onClick={props.sortReversedAlphaUsers}>Last Name</Dropdown.Item>                                         
-                                        </DropdownButton></th>
+                            <Dropdown.Item onClick={props.sortAlphaUsers}>First Name</Dropdown.Item>
+                            <Dropdown.Item onClick={props.sortReversedAlphaUsers}>Last Name</Dropdown.Item>                                         
+                            </DropdownButton></th>
                         <th>Address</th>
                         <th>Email</th>
                         <th>Cell Phone</th>
